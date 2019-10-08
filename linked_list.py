@@ -28,16 +28,28 @@ block_D.id = 4
 block_D.history = 'Sky loves turtle'
 block_D.parent_id = block_C.id
 
+block_E = Block()
+block_E.id = 5
+block_E.history = 'Sherly likes fish'
+block_E.parent_id = block_D.id
+
+block_E = Block()
+block_E.id = 5
+block_E.history = 'Johny likes shrimp'
+block_E.parent_id = block_D.id
+
+
 block_serialized = json.dumps(block_D.__dict__).encode('utf-8')
 print(block_serialized)
 b'{"history": "sky loves turtle", "parent_id": 4, "id": 4}'
 
-#brute force
+#brute force + reward
 payload = b'{"history": "sky loves turtle", "parent_id": 4, "id": 4}'
 for i in range(100000000):
     nonce = str(i).encode('utf-8')
     result = hashlib.sha256(payload + nonce).hexdigest()
     if result[0:5] == '00000':
+        reward[miner_id] += 1
         print(i)
         print(result)
         break
