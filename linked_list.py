@@ -49,7 +49,7 @@ for i in range(100000000):
     nonce = str(i).encode('utf-8')
     result = hashlib.sha256(payload + nonce).hexdigest()
     if result[0:5] == '00000':
-        reward[miner_id] += 1
+        #reward[miner_id] += 1
         print(i)
         print(result)
         break
