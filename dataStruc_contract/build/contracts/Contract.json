@@ -1,0 +1,138 @@
+{
+  "contractName": "Contract",
+  "abi": [
+    {
+      "outputs": [],
+      "inputs": [],
+      "constant": false,
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "name": "donate",
+      "outputs": [],
+      "inputs": [
+        {
+          "type": "bytes",
+          "name": "name"
+        }
+      ],
+      "constant": false,
+      "payable": true,
+      "type": "function",
+      "gas": 317718
+    },
+    {
+      "name": "withdraw_donation",
+      "outputs": [],
+      "inputs": [],
+      "constant": false,
+      "payable": false,
+      "type": "function",
+      "gas": 36034
+    },
+    {
+      "name": "donatur_details__sum",
+      "outputs": [
+        {
+          "type": "uint256",
+          "unit": "wei",
+          "name": "out"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "address",
+          "name": "arg0"
+        }
+      ],
+      "constant": true,
+      "payable": false,
+      "type": "function",
+      "gas": 837
+    },
+    {
+      "name": "donatur_details__name",
+      "outputs": [
+        {
+          "type": "bytes",
+          "name": "out"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "address",
+          "name": "arg0"
+        }
+      ],
+      "constant": true,
+      "payable": false,
+      "type": "function",
+      "gas": 23003
+    },
+    {
+      "name": "donatur_details__time",
+      "outputs": [
+        {
+          "type": "uint256",
+          "unit": "sec",
+          "name": "out"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "address",
+          "name": "arg0"
+        }
+      ],
+      "constant": true,
+      "payable": false,
+      "type": "function",
+      "gas": 903
+    },
+    {
+      "name": "donaturs",
+      "outputs": [
+        {
+          "type": "address",
+          "name": "out"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "int128",
+          "name": "arg0"
+        }
+      ],
+      "constant": true,
+      "payable": false,
+      "type": "function",
+      "gas": 900
+    },
+    {
+      "name": "donatee",
+      "outputs": [
+        {
+          "type": "address",
+          "name": "out"
+        }
+      ],
+      "inputs": [],
+      "constant": true,
+      "payable": false,
+      "type": "function",
+      "gas": 731
+    }
+  ],
+  "bytecode": "0x740100000000000000000000000000000000000000006020526f7fffffffffffffffffffffffffffffff6040527fffffffffffffffffffffffffffffffff8000000000000000000000000000000060605274012a05f1fffffffffffffffffffffffffdabf41c006080527ffffffffffffffffffffffffed5fa0e000000000000000000000000000000000060a052341561009857600080fd5b336002556104e056600436101561000d57610439565b600035601c52740100000000000000000000000000000000000000006020526f7fffffffffffffffffffffffffffffff6040527fffffffffffffffffffffffffffffffff8000000000000000000000000000000060605274012a05f1fffffffffffffffffffffffffdabf41c006080527ffffffffffffffffffffffffed5fa0e000000000000000000000000000000000060a052637202d11060005114156101b95760846004356004016101403760646004356004013511156100cf57600080fd5b670de0b6b3a76400003410156100e457600080fd5b600a600354126100f357600080fd5b60003360e05260c052604060c02060c052602060c020348155610140806001830160c052602060c020602082510161012060006005818352015b8261012051602002111561014057610162565b61012051602002850151610120518501555b815160010180835281141561012d575b5050505050504260028201555033600354600a811061018057600080fd5b600160c052602060c020015560036060516001825401806040519013156101a657600080fd5b80919012156101b457600080fd5b815550005b6333158cf360005114156101fb5734156101d257600080fd5b60025433146101e057600080fd5b600060006000600030316002546000f16101f957600080fd5b005b630cf6a753600051141561024a57341561021457600080fd5b600435602051811061022557600080fd5b50600060043560e05260c052604060c02060c052602060c0205460005260206000f350005b6308572e7c600051141561035a57341561026357600080fd5b600435602051811061027457600080fd5b506001600060043560e05260c052604060c02060c052602060c020018060c052602060c020610180602082540161012060006005818352015b826101205160200211156102c0576102e2565b61012051850154610120516020028501525b81516001018083528114156102ad575b5050505050506101805160206001820306601f8201039050610240610180516080818352015b826102405110151561031957610335565b6000610240516101a001535b8151600101808352811415610308575b5050506020610160526040610180510160206001820306601f8201039050610160f350005b63ce2bc6b660005114156103ac57341561037357600080fd5b600435602051811061038457600080fd5b506002600060043560e05260c052604060c02060c052602060c020015460005260206000f350005b63086790a060005114156104115734156103c557600080fd5b606051600435806040519013156103db57600080fd5b80919012156103e957600080fd5b50600435600a81106103fa57600080fd5b600160c052602060c020015460005260206000f350005b63c3351640600051141561043857341561042a57600080fd5b60025460005260206000f350005b5b60006000fd5b6100a16104e0036100a16000396100a16104e0036000f3",
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xbdb20Daa257e09a28F1Ca10047727562a39AC263",
+      "transactionHash": "0x1bab5d426450d8a4457e3d8c37b352256c5300d424f1a43ad019ce206c0f74c2"
+    }
+  },
+  "schemaVersion": "3.0.16",
+  "updatedAt": "2019-10-12T09:08:59.121Z"
+}

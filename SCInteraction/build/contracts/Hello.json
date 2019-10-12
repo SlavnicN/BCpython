@@ -56,10 +56,10 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xbdb20Daa257e09a28F1Ca10047727562a39AC263",
-      "transactionHash": "0x9d562494a155128e71bb4824ad33be1e429ba98ebe5380229ee3c7b21efc4b26"
+      "address": "0xE97570A5681893Cb0043a983BE058e77F4F55B8e",
+      "transactionHash": "0x5443db732ed13fb7f798d52eaa483df2df59de6185838ebff6cedd8020765e21"
     }
   },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-10-12T10:01:15.727Z"
+  "updatedAt": "2019-10-12T10:24:07.225Z"
 }

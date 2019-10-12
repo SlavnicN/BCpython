@@ -23,5 +23,4 @@ contract Donation{
     function receive_donation() public{
         donatee.transfer(address(this).balance);
     }
-    
 }
