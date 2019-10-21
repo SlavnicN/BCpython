@@ -1,0 +1,5428 @@
+{
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_greeting",
+          "type": "string"
+        }
+      ],
+      "name": "setGreeting",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "greet",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "greeting",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "allSourcePaths": [
+    "contracts/Greeter.sol"
+  ],
+  "ast": {
+    "absolutePath": "contracts/Greeter.sol",
+    "exportedSymbols": {
+      "Greeter": [
+        30
+      ]
+    },
+    "id": 31,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 30,
+        "linearizedBaseContracts": [
+          30
+        ],
+        "name": "Greeter",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "name": "greeting",
+            "nodeType": "VariableDeclaration",
+            "scope": 30,
+            "src": "48:22:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "48:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 10,
+              "nodeType": "Block",
+              "src": "163:35:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 8,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 6,
+                      "name": "greeting",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3,
+                      "src": "173:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "48656c6c6f",
+                      "id": 7,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "184:7:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_06b3dfaec148fb1bb2b066f10ec285e7c9bf402ab32aa78a5d38e34566810cd2",
+                        "typeString": "literal_string \"Hello\""
+                      },
+                      "value": "Hello"
+                    },
+                    "src": "173:18:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 9,
+                  "nodeType": "ExpressionStatement",
+                  "src": "173:18:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 11,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "Greeter",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "153:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "163:0:0"
+            },
+            "scope": 30,
+            "src": "137:61:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 20,
+              "nodeType": "Block",
+              "src": "250:37:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 18,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 16,
+                      "name": "greeting",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3,
+                      "src": "260:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 17,
+                      "name": "_greeting",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 13,
+                      "src": "271:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "260:20:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 19,
+                  "nodeType": "ExpressionStatement",
+                  "src": "260:20:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 21,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "setGreeting",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13,
+                  "name": "_greeting",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 21,
+                  "src": "225:16:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 12,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "225:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "224:18:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 15,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "250:0:0"
+            },
+            "scope": 30,
+            "src": "204:83:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 28,
+              "nodeType": "Block",
+              "src": "343:32:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 26,
+                    "name": "greeting",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 3,
+                    "src": "360:8:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 25,
+                  "id": 27,
+                  "nodeType": "Return",
+                  "src": "353:15:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 29,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "greet",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 22,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "307:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 25,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 29,
+                  "src": "335:6:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 23,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "335:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "334:8:0"
+            },
+            "scope": 30,
+            "src": "293:82:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 31,
+        "src": "25:352:0"
+      }
+    ],
+    "src": "0:378:0"
+  },
+  "bytecode": "608060405234801561001057600080fd5b506040805180820190915260058082527f48656c6c6f00000000000000000000000000000000000000000000000000000060209092019182526100559160009161005b565b506100f6565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061009c57805160ff19168380011785556100c9565b828001600101855582156100c9579182015b828111156100c95782518255916020019190600101906100ae565b506100d59291506100d9565b5090565b6100f391905b808211156100d557600081556001016100df565b90565b610355806101056000396000f3006080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663a4136862811461005b578063cfae3217146100b6578063ef690cc014610140575b600080fd5b34801561006757600080fd5b506040805160206004803580820135601f81018490048402850184019095528484526100b49436949293602493928401919081908401838280828437509497506101559650505050505050565b005b3480156100c257600080fd5b506100cb61016c565b6040805160208082528351818301528351919283929083019185019080838360005b838110156101055781810151838201526020016100ed565b50505050905090810190601f1680156101325780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561014c57600080fd5b506100cb610203565b8051610168906000906020840190610291565b5050565b60008054604080516020601f60026000196101006001881615020190951694909404938401819004810282018101909252828152606093909290918301828280156101f85780601f106101cd576101008083540402835291602001916101f8565b820191906000526020600020905b8154815290600101906020018083116101db57829003601f168201915b505050505090505b90565b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156102895780601f1061025e57610100808354040283529160200191610289565b820191906000526020600020905b81548152906001019060200180831161026c57829003601f168201915b505050505081565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102d257805160ff19168380011785556102ff565b828001600101855582156102ff579182015b828111156102ff5782518255916020019190600101906102e4565b5061030b92915061030f565b5090565b61020091905b8082111561030b57600081556001016103155600a165627a7a72305820a421060ee05ea8d46fd22dd9a3bc77148d4065cc91b7111d7240e4f84f9f3f990029",
+  "bytecodeSha1": "87f1f35b6297c39f608494a9b9670ae7e426ca90",
+  "compiler": {
+    "evm_version": "byzantium",
+    "minify_source": false,
+    "optimize": true,
+    "runs": 200,
+    "version": "Version: 0.4.25+commit.59dbf8f1.Linux.g++"
+  },
+  "contractName": "Greeter",
+  "coverageMap": {
+    "branches": {
+      "contracts/Greeter.sol": {}
+    },
+    "statements": {
+      "contracts/Greeter.sol": {
+        "Greeter.greet": {
+          "1": [
+            353,
+            368
+          ]
+        },
+        "Greeter.setGreeting": {
+          "0": [
+            260,
+            280
+          ]
+        }
+      }
+    }
+  },
+  "dependencies": [],
+  "deployedBytecode": "6080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663a4136862811461005b578063cfae3217146100b6578063ef690cc014610140575b600080fd5b34801561006757600080fd5b506040805160206004803580820135601f81018490048402850184019095528484526100b49436949293602493928401919081908401838280828437509497506101559650505050505050565b005b3480156100c257600080fd5b506100cb61016c565b6040805160208082528351818301528351919283929083019185019080838360005b838110156101055781810151838201526020016100ed565b50505050905090810190601f1680156101325780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561014c57600080fd5b506100cb610203565b8051610168906000906020840190610291565b5050565b60008054604080516020601f60026000196101006001881615020190951694909404938401819004810282018101909252828152606093909290918301828280156101f85780601f106101cd576101008083540402835291602001916101f8565b820191906000526020600020905b8154815290600101906020018083116101db57829003601f168201915b505050505090505b90565b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156102895780601f1061025e57610100808354040283529160200191610289565b820191906000526020600020905b81548152906001019060200180831161026c57829003601f168201915b505050505081565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102d257805160ff19168380011785556102ff565b828001600101855582156102ff579182015b828111156102ff5782518255916020019190600101906102e4565b5061030b92915061030f565b5090565b61020091905b8082111561030b57600081556001016103155600a165627a7a72305820a421060ee05ea8d46fd22dd9a3bc77148d4065cc91b7111d7240e4f84f9f3f990029",
+  "deployedSourceMap": "25:352:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;204:83;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;204:83:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;204:83:0;;-1:-1:-1;204:83:0;;-1:-1:-1;;;;;;;204:83:0;;;293:82;;8:9:-1;5:2;;;30:1;27;20:12;5:2;293:82:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:100:-1;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;293:82:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;48:22;;8:9:-1;5:2;;;30:1;27;20:12;5:2;48:22:0;;;;204:83;260:20;;;;:8;;:20;;;;;:::i;:::-;;204:83;:::o;293:82::-;360:8;353:15;;;;;;;;-1:-1:-1;;353:15:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;335:6;;353:15;;360:8;;353:15;;360:8;353:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;293:82;;:::o;48:22::-;;;;;;;;;;;;;;;-1:-1:-1;;48:22:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;25:352::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;25:352:0;;;-1:-1:-1;25:352:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;",
+  "offset": [
+    25,
+    377
+  ],
+  "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH2 0x56 JUMPI PUSH4 0xFFFFFFFF PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV AND PUSH4 0xA4136862 DUP2 EQ PUSH2 0x5B JUMPI DUP1 PUSH4 0xCFAE3217 EQ PUSH2 0xB6 JUMPI DUP1 PUSH4 0xEF690CC0 EQ PUSH2 0x140 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x67 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 PUSH1 0x4 DUP1 CALLDATALOAD DUP1 DUP3 ADD CALLDATALOAD PUSH1 0x1F DUP2 ADD DUP5 SWAP1 DIV DUP5 MUL DUP6 ADD DUP5 ADD SWAP1 SWAP6 MSTORE DUP5 DUP5 MSTORE PUSH2 0xB4 SWAP5 CALLDATASIZE SWAP5 SWAP3 SWAP4 PUSH1 0x24 SWAP4 SWAP3 DUP5 ADD SWAP2 SWAP1 DUP2 SWAP1 DUP5 ADD DUP4 DUP3 DUP1 DUP3 DUP5 CALLDATACOPY POP SWAP5 SWAP8 POP PUSH2 0x155 SWAP7 POP POP POP POP POP POP POP JUMP JUMPDEST STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0xC2 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xCB PUSH2 0x16C JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 DUP1 DUP3 MSTORE DUP4 MLOAD DUP2 DUP4 ADD MSTORE DUP4 MLOAD SWAP2 SWAP3 DUP4 SWAP3 SWAP1 DUP4 ADD SWAP2 DUP6 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH2 0x105 JUMPI DUP2 DUP2 ADD MLOAD DUP4 DUP3 ADD MSTORE PUSH1 0x20 ADD PUSH2 0xED JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH2 0x132 JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x14C JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xCB PUSH2 0x203 JUMP JUMPDEST DUP1 MLOAD PUSH2 0x168 SWAP1 PUSH1 0x0 SWAP1 PUSH1 0x20 DUP5 ADD SWAP1 PUSH2 0x291 JUMP JUMPDEST POP POP JUMP JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 PUSH1 0x1F PUSH1 0x2 PUSH1 0x0 NOT PUSH2 0x100 PUSH1 0x1 DUP9 AND ISZERO MUL ADD SWAP1 SWAP6 AND SWAP5 SWAP1 SWAP5 DIV SWAP4 DUP5 ADD DUP2 SWAP1 DIV DUP2 MUL DUP3 ADD DUP2 ADD SWAP1 SWAP3 MSTORE DUP3 DUP2 MSTORE PUSH1 0x60 SWAP4 SWAP1 SWAP3 SWAP1 SWAP2 DUP4 ADD DUP3 DUP3 DUP1 ISZERO PUSH2 0x1F8 JUMPI DUP1 PUSH1 0x1F LT PUSH2 0x1CD JUMPI PUSH2 0x100 DUP1 DUP4 SLOAD DIV MUL DUP4 MSTORE SWAP2 PUSH1 0x20 ADD SWAP2 PUSH2 0x1F8 JUMP JUMPDEST DUP3 ADD SWAP2 SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 JUMPDEST DUP2 SLOAD DUP2 MSTORE SWAP1 PUSH1 0x1 ADD SWAP1 PUSH1 0x20 ADD DUP1 DUP4 GT PUSH2 0x1DB JUMPI DUP3 SWAP1 SUB PUSH1 0x1F AND DUP3 ADD SWAP2 JUMPDEST POP POP POP POP POP SWAP1 POP JUMPDEST SWAP1 JUMP JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 PUSH1 0x2 PUSH1 0x1 DUP6 AND ISZERO PUSH2 0x100 MUL PUSH1 0x0 NOT ADD SWAP1 SWAP5 AND SWAP4 SWAP1 SWAP4 DIV PUSH1 0x1F DUP2 ADD DUP5 SWAP1 DIV DUP5 MUL DUP3 ADD DUP5 ADD SWAP1 SWAP3 MSTORE DUP2 DUP2 MSTORE SWAP3 SWAP2 DUP4 ADD DUP3 DUP3 DUP1 ISZERO PUSH2 0x289 JUMPI DUP1 PUSH1 0x1F LT PUSH2 0x25E JUMPI PUSH2 0x100 DUP1 DUP4 SLOAD DIV MUL DUP4 MSTORE SWAP2 PUSH1 0x20 ADD SWAP2 PUSH2 0x289 JUMP JUMPDEST DUP3 ADD SWAP2 SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 JUMPDEST DUP2 SLOAD DUP2 MSTORE SWAP1 PUSH1 0x1 ADD SWAP1 PUSH1 0x20 ADD DUP1 DUP4 GT PUSH2 0x26C JUMPI DUP3 SWAP1 SUB PUSH1 0x1F AND DUP3 ADD SWAP2 JUMPDEST POP POP POP POP POP DUP2 JUMP JUMPDEST DUP3 DUP1 SLOAD PUSH1 0x1 DUP2 PUSH1 0x1 AND ISZERO PUSH2 0x100 MUL SUB AND PUSH1 0x2 SWAP1 DIV SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 PUSH1 0x1F ADD PUSH1 0x20 SWAP1 DIV DUP2 ADD SWAP3 DUP3 PUSH1 0x1F LT PUSH2 0x2D2 JUMPI DUP1 MLOAD PUSH1 0xFF NOT AND DUP4 DUP1 ADD OR DUP6 SSTORE PUSH2 0x2FF JUMP JUMPDEST DUP3 DUP1 ADD PUSH1 0x1 ADD DUP6 SSTORE DUP3 ISZERO PUSH2 0x2FF JUMPI SWAP2 DUP3 ADD JUMPDEST DUP3 DUP2 GT ISZERO PUSH2 0x2FF JUMPI DUP3 MLOAD DUP3 SSTORE SWAP2 PUSH1 0x20 ADD SWAP2 SWAP1 PUSH1 0x1 ADD SWAP1 PUSH2 0x2E4 JUMP JUMPDEST POP PUSH2 0x30B SWAP3 SWAP2 POP PUSH2 0x30F JUMP JUMPDEST POP SWAP1 JUMP JUMPDEST PUSH2 0x200 SWAP2 SWAP1 JUMPDEST DUP1 DUP3 GT ISZERO PUSH2 0x30B JUMPI PUSH1 0x0 DUP2 SSTORE PUSH1 0x1 ADD PUSH2 0x315 JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 LOG4 0x21 MOD 0xe 0xe0 0x5e 0xa8 0xd4 PUSH16 0xD22DD9A3BC77148D4065CC91B7111D72 BLOCKHASH 0xe4 0xf8 0x4f SWAP16 0x3f SWAP10 STOP 0x29 ",
+  "pcMap": {
+    "0": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x80"
+    },
+    "2": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x40"
+    },
+    "4": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "5": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x4"
+    },
+    "7": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "CALLDATASIZE",
+      "path": "contracts/Greeter.sol"
+    },
+    "8": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "LT",
+      "path": "contracts/Greeter.sol"
+    },
+    "9": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x56"
+    },
+    "12": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "13": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH4",
+      "path": "contracts/Greeter.sol",
+      "value": "0xFFFFFFFF"
+    },
+    "18": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH29",
+      "path": "contracts/Greeter.sol",
+      "value": "0x100000000000000000000000000000000000000000000000000000000"
+    },
+    "48": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "50": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "CALLDATALOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "51": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "52": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "53": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH4",
+      "path": "contracts/Greeter.sol",
+      "value": "0xA4136862"
+    },
+    "58": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "59": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "EQ",
+      "path": "contracts/Greeter.sol"
+    },
+    "60": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x5B"
+    },
+    "63": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "64": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "65": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH4",
+      "path": "contracts/Greeter.sol",
+      "value": "0xCFAE3217"
+    },
+    "70": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "EQ",
+      "path": "contracts/Greeter.sol"
+    },
+    "71": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0xB6"
+    },
+    "74": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "75": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "76": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH4",
+      "path": "contracts/Greeter.sol",
+      "value": "0xEF690CC0"
+    },
+    "81": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "EQ",
+      "path": "contracts/Greeter.sol"
+    },
+    "82": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x140"
+    },
+    "85": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "86": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "87": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "89": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "90": {
+      "first_revert": true,
+      "offset": [
+        25,
+        377
+      ],
+      "op": "REVERT",
+      "path": "contracts/Greeter.sol"
+    },
+    "91": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "92": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "CALLVALUE",
+      "path": "contracts/Greeter.sol"
+    },
+    "93": {
+      "op": "DUP1"
+    },
+    "94": {
+      "op": "ISZERO"
+    },
+    "95": {
+      "op": "PUSH2",
+      "value": "0x67"
+    },
+    "98": {
+      "op": "JUMPI"
+    },
+    "99": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "101": {
+      "op": "DUP1"
+    },
+    "102": {
+      "op": "REVERT"
+    },
+    "103": {
+      "op": "JUMPDEST"
+    },
+    "104": {
+      "op": "POP"
+    },
+    "105": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x40"
+    },
+    "107": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "108": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "109": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "111": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x4"
+    },
+    "113": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "114": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "CALLDATALOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "115": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "116": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "117": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "118": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "CALLDATALOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "119": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "121": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "122": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "123": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "124": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "125": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "126": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "127": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "MUL",
+      "path": "contracts/Greeter.sol"
+    },
+    "128": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP6",
+      "path": "contracts/Greeter.sol"
+    },
+    "129": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "130": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "131": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "132": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "133": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP6",
+      "path": "contracts/Greeter.sol"
+    },
+    "134": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "135": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "136": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "137": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "138": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0xB4"
+    },
+    "141": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "142": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "CALLDATASIZE",
+      "path": "contracts/Greeter.sol"
+    },
+    "143": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "144": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "145": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "146": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x24"
+    },
+    "148": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "149": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "150": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "151": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "152": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "153": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "154": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "155": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "156": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "157": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "158": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "159": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "160": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "161": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "162": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "163": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "CALLDATACOPY",
+      "path": "contracts/Greeter.sol"
+    },
+    "164": {
+      "op": "POP"
+    },
+    "165": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "166": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP8",
+      "path": "contracts/Greeter.sol"
+    },
+    "167": {
+      "op": "POP"
+    },
+    "168": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x155"
+    },
+    "171": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "SWAP7",
+      "path": "contracts/Greeter.sol"
+    },
+    "172": {
+      "op": "POP"
+    },
+    "173": {
+      "op": "POP"
+    },
+    "174": {
+      "op": "POP"
+    },
+    "175": {
+      "op": "POP"
+    },
+    "176": {
+      "op": "POP"
+    },
+    "177": {
+      "op": "POP"
+    },
+    "178": {
+      "op": "POP"
+    },
+    "179": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "180": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "181": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "STOP",
+      "path": "contracts/Greeter.sol"
+    },
+    "182": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "183": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "CALLVALUE",
+      "path": "contracts/Greeter.sol"
+    },
+    "184": {
+      "op": "DUP1"
+    },
+    "185": {
+      "op": "ISZERO"
+    },
+    "186": {
+      "op": "PUSH2",
+      "value": "0xC2"
+    },
+    "189": {
+      "op": "JUMPI"
+    },
+    "190": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "192": {
+      "op": "DUP1"
+    },
+    "193": {
+      "op": "REVERT"
+    },
+    "194": {
+      "op": "JUMPDEST"
+    },
+    "195": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "196": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0xCB"
+    },
+    "199": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x16C"
+    },
+    "202": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "203": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "204": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x40"
+    },
+    "206": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "207": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "208": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "210": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "211": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "212": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "213": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "214": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "215": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "216": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "217": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "218": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "219": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "220": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "221": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "222": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "223": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "224": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "225": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "226": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "227": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "228": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "229": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP6",
+      "path": "contracts/Greeter.sol"
+    },
+    "230": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "231": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "232": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "233": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "234": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "235": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "237": {
+      "op": "JUMPDEST"
+    },
+    "238": {
+      "op": "DUP4"
+    },
+    "239": {
+      "op": "DUP2"
+    },
+    "240": {
+      "op": "LT"
+    },
+    "241": {
+      "op": "ISZERO"
+    },
+    "242": {
+      "op": "PUSH2",
+      "value": "0x105"
+    },
+    "245": {
+      "op": "JUMPI"
+    },
+    "246": {
+      "op": "DUP2"
+    },
+    "247": {
+      "op": "DUP2"
+    },
+    "248": {
+      "op": "ADD"
+    },
+    "249": {
+      "op": "MLOAD"
+    },
+    "250": {
+      "op": "DUP4"
+    },
+    "251": {
+      "op": "DUP3"
+    },
+    "252": {
+      "op": "ADD"
+    },
+    "253": {
+      "op": "MSTORE"
+    },
+    "254": {
+      "op": "PUSH1",
+      "value": "0x20"
+    },
+    "256": {
+      "op": "ADD"
+    },
+    "257": {
+      "op": "PUSH2",
+      "value": "0xED"
+    },
+    "260": {
+      "op": "JUMP"
+    },
+    "261": {
+      "op": "JUMPDEST"
+    },
+    "262": {
+      "op": "POP"
+    },
+    "263": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "264": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "265": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "266": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "267": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "268": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "269": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "270": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "271": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "272": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "274": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "275": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "276": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "277": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x132"
+    },
+    "280": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "281": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "282": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "283": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SUB",
+      "path": "contracts/Greeter.sol"
+    },
+    "284": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "285": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "286": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "288": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "289": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "291": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SUB",
+      "path": "contracts/Greeter.sol"
+    },
+    "292": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x100"
+    },
+    "295": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "EXP",
+      "path": "contracts/Greeter.sol"
+    },
+    "296": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SUB",
+      "path": "contracts/Greeter.sol"
+    },
+    "297": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "NOT",
+      "path": "contracts/Greeter.sol"
+    },
+    "298": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "299": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "300": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "301": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "303": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "304": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "305": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "306": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "307": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "308": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "309": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "310": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "311": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "312": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x40"
+    },
+    "314": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "315": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "316": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "317": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SUB",
+      "path": "contracts/Greeter.sol"
+    },
+    "318": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "319": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "RETURN",
+      "path": "contracts/Greeter.sol"
+    },
+    "320": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "321": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "CALLVALUE",
+      "path": "contracts/Greeter.sol"
+    },
+    "322": {
+      "op": "DUP1"
+    },
+    "323": {
+      "op": "ISZERO"
+    },
+    "324": {
+      "op": "PUSH2",
+      "value": "0x14C"
+    },
+    "327": {
+      "op": "JUMPI"
+    },
+    "328": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "330": {
+      "op": "DUP1"
+    },
+    "331": {
+      "op": "REVERT"
+    },
+    "332": {
+      "op": "JUMPDEST"
+    },
+    "333": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "334": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0xCB"
+    },
+    "337": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x203"
+    },
+    "340": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "341": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "342": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol",
+      "statement": 0
+    },
+    "343": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "344": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x168"
+    },
+    "347": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "348": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        268
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "350": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        268
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "351": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "353": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "354": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "355": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "356": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x291"
+    },
+    "359": {
+      "fn": "Greeter.setGreeting",
+      "jump": "i",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "360": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "361": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        260,
+        280
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "362": {
+      "fn": "Greeter.setGreeting",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "363": {
+      "fn": "Greeter.setGreeting",
+      "jump": "o",
+      "offset": [
+        204,
+        287
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "364": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "365": {
+      "fn": "Greeter.greet",
+      "offset": [
+        360,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "statement": 1,
+      "value": "0x0"
+    },
+    "367": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "368": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "369": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x40"
+    },
+    "371": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "372": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "373": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "375": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "377": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x2"
+    },
+    "379": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "381": {
+      "op": "NOT"
+    },
+    "382": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x100"
+    },
+    "385": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "387": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP9",
+      "path": "contracts/Greeter.sol"
+    },
+    "388": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "389": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "390": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MUL",
+      "path": "contracts/Greeter.sol"
+    },
+    "391": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "392": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "393": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP6",
+      "path": "contracts/Greeter.sol"
+    },
+    "394": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "395": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "396": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "397": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "398": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "399": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "400": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "401": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "402": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "403": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "404": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "405": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "406": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MUL",
+      "path": "contracts/Greeter.sol"
+    },
+    "407": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "408": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "409": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "410": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "411": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "412": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "413": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "414": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "415": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "416": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "417": {
+      "fn": "Greeter.greet",
+      "offset": [
+        335,
+        341
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x60"
+    },
+    "419": {
+      "fn": "Greeter.greet",
+      "offset": [
+        335,
+        341
+      ],
+      "op": "SWAP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "420": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "421": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "422": {
+      "fn": "Greeter.greet",
+      "offset": [
+        360,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "423": {
+      "fn": "Greeter.greet",
+      "offset": [
+        360,
+        368
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "424": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "425": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "426": {
+      "fn": "Greeter.greet",
+      "offset": [
+        360,
+        368
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "427": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "428": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "429": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "430": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F8"
+    },
+    "433": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "434": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "435": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "437": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "LT",
+      "path": "contracts/Greeter.sol"
+    },
+    "438": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1CD"
+    },
+    "441": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "442": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x100"
+    },
+    "445": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "446": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "447": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "448": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "449": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MUL",
+      "path": "contracts/Greeter.sol"
+    },
+    "450": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "451": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "452": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "453": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "455": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "456": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "457": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F8"
+    },
+    "460": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "461": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "462": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "463": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "464": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "465": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "466": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "468": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "469": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "471": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "473": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "KECCAK256",
+      "path": "contracts/Greeter.sol"
+    },
+    "474": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "475": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "476": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "477": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "478": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "479": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "480": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "481": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "483": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "484": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "485": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "487": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "488": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "489": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "490": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "GT",
+      "path": "contracts/Greeter.sol"
+    },
+    "491": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1DB"
+    },
+    "494": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "495": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "496": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "497": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SUB",
+      "path": "contracts/Greeter.sol"
+    },
+    "498": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "500": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "501": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "502": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "503": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "504": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "505": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "506": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "507": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "508": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "509": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "510": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "511": {
+      "fn": "Greeter.greet",
+      "offset": [
+        353,
+        368
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "512": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "513": {
+      "fn": "Greeter.greet",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "514": {
+      "fn": "Greeter.greet",
+      "jump": "o",
+      "offset": [
+        293,
+        375
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "515": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "516": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "518": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "519": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "520": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x40"
+    },
+    "522": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "523": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "524": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "526": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x2"
+    },
+    "528": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "530": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP6",
+      "path": "contracts/Greeter.sol"
+    },
+    "531": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "532": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "533": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x100"
+    },
+    "536": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MUL",
+      "path": "contracts/Greeter.sol"
+    },
+    "537": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "539": {
+      "op": "NOT"
+    },
+    "540": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "541": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "542": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "543": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "544": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "545": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "546": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "547": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "548": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "550": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "551": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "552": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "553": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "554": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "555": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "556": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MUL",
+      "path": "contracts/Greeter.sol"
+    },
+    "557": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "558": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "559": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP5",
+      "path": "contracts/Greeter.sol"
+    },
+    "560": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "561": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "562": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "563": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "564": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "565": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "566": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "567": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "568": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "569": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "570": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "571": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "572": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "573": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "574": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "575": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x289"
+    },
+    "578": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "579": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "580": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "582": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "LT",
+      "path": "contracts/Greeter.sol"
+    },
+    "583": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x25E"
+    },
+    "586": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "587": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x100"
+    },
+    "590": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "591": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "592": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "593": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "594": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MUL",
+      "path": "contracts/Greeter.sol"
+    },
+    "595": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "596": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "597": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "598": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "600": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "601": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "602": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x289"
+    },
+    "605": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "606": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "607": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "608": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "609": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "610": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "611": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "613": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "614": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "616": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "618": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "KECCAK256",
+      "path": "contracts/Greeter.sol"
+    },
+    "619": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "620": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "621": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "622": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "623": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "624": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "625": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "626": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "628": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "629": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "630": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "632": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "633": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "634": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "635": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "GT",
+      "path": "contracts/Greeter.sol"
+    },
+    "636": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x26C"
+    },
+    "639": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "640": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "641": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "642": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SUB",
+      "path": "contracts/Greeter.sol"
+    },
+    "643": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "645": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "646": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "647": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "648": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "649": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "650": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "651": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "652": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "653": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "654": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "655": {
+      "offset": [
+        48,
+        70
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "656": {
+      "jump": "o",
+      "offset": [
+        48,
+        70
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "657": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "658": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "659": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "660": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "661": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "663": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "664": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "666": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "667": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "668": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x100"
+    },
+    "671": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "MUL",
+      "path": "contracts/Greeter.sol"
+    },
+    "672": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SUB",
+      "path": "contracts/Greeter.sol"
+    },
+    "673": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "674": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x2"
+    },
+    "676": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "677": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "678": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "679": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "681": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "MSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "682": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "684": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "686": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "KECCAK256",
+      "path": "contracts/Greeter.sol"
+    },
+    "687": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "688": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "690": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "691": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "693": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "694": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DIV",
+      "path": "contracts/Greeter.sol"
+    },
+    "695": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "696": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "697": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "698": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "699": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1F"
+    },
+    "701": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "LT",
+      "path": "contracts/Greeter.sol"
+    },
+    "702": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x2D2"
+    },
+    "705": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "706": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "707": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "708": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0xFF"
+    },
+    "710": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "NOT",
+      "path": "contracts/Greeter.sol"
+    },
+    "711": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "AND",
+      "path": "contracts/Greeter.sol"
+    },
+    "712": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP4",
+      "path": "contracts/Greeter.sol"
+    },
+    "713": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "714": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "715": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "OR",
+      "path": "contracts/Greeter.sol"
+    },
+    "716": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP6",
+      "path": "contracts/Greeter.sol"
+    },
+    "717": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "718": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x2FF"
+    },
+    "721": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "722": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "723": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "724": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "725": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "726": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "728": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "729": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP6",
+      "path": "contracts/Greeter.sol"
+    },
+    "730": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "731": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "732": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "733": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x2FF"
+    },
+    "736": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "737": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "738": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "739": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "740": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "741": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "742": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "743": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "GT",
+      "path": "contracts/Greeter.sol"
+    },
+    "744": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "745": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x2FF"
+    },
+    "748": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "749": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "750": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "MLOAD",
+      "path": "contracts/Greeter.sol"
+    },
+    "751": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "752": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "753": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "754": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x20"
+    },
+    "756": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "757": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "758": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "759": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "761": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "762": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "763": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x2E4"
+    },
+    "766": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "767": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "768": {
+      "op": "POP"
+    },
+    "769": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x30B"
+    },
+    "772": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "773": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "774": {
+      "op": "POP"
+    },
+    "775": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x30F"
+    },
+    "778": {
+      "jump": "i",
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "779": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "780": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "POP",
+      "path": "contracts/Greeter.sol"
+    },
+    "781": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "782": {
+      "jump": "o",
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    },
+    "783": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "784": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x200"
+    },
+    "787": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "788": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SWAP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "789": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPDEST",
+      "path": "contracts/Greeter.sol"
+    },
+    "790": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP1",
+      "path": "contracts/Greeter.sol"
+    },
+    "791": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP3",
+      "path": "contracts/Greeter.sol"
+    },
+    "792": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "GT",
+      "path": "contracts/Greeter.sol"
+    },
+    "793": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ISZERO",
+      "path": "contracts/Greeter.sol"
+    },
+    "794": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x30B"
+    },
+    "797": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMPI",
+      "path": "contracts/Greeter.sol"
+    },
+    "798": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x0"
+    },
+    "800": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "DUP2",
+      "path": "contracts/Greeter.sol"
+    },
+    "801": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "SSTORE",
+      "path": "contracts/Greeter.sol"
+    },
+    "802": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH1",
+      "path": "contracts/Greeter.sol",
+      "value": "0x1"
+    },
+    "804": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "ADD",
+      "path": "contracts/Greeter.sol"
+    },
+    "805": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "PUSH2",
+      "path": "contracts/Greeter.sol",
+      "value": "0x315"
+    },
+    "808": {
+      "offset": [
+        25,
+        377
+      ],
+      "op": "JUMP",
+      "path": "contracts/Greeter.sol"
+    }
+  },
+  "sha1": "d270fa2a49dbf3b6899f3a00be8c7c8ad8fc8584",
+  "source": "pragma solidity ^0.4.0;\n\ncontract Greeter {\n    string public greeting;\n\n    // TODO: Populus seems to get no bytecode if `internal`\n    function Greeter() public {\n        greeting = 'Hello';\n    }\n\n    function setGreeting(string _greeting) public {\n        greeting = _greeting;\n    }\n\n    function greet() public constant returns (string) {\n        return greeting;\n    }\n}\n",
+  "sourceMap": "25:352:0:-;;;137:61;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;173:18:0;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;173:18:0;:::i;:::-;;25:352;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;25:352:0;;;-1:-1:-1;25:352:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "sourcePath": "contracts/Greeter.sol",
+  "type": "contract"
+}
