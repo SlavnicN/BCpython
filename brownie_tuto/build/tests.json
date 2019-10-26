@@ -1,14 +1,14 @@
 {
   "contracts": {
-    "Donation": "e8f3f860b03a1a1063501c93ae1391306c25182a",
+    "Donation": "81275f17de88345ad9cecf705b4461427729fdc4",
     "Greeter": "87f1f35b6297c39f608494a9b9670ae7e426ca90"
   },
   "tests": {
     "tests/test_donation.py": {
       "coverage": false,
       "isolated": false,
-      "results": "..",
-      "sha1": "e0f7dc4cdc14402ba5076daa0f9b3b65bff49c8d",
+      "results": "..F",
+      "sha1": "b3e4f9ad3cc2b79fbbe1254fa2524df45b4ea379",
       "txhash": []
     },
     "tests/test_greeter.py": {

@@ -167,3 +167,49 @@ dir(donation.donate('Taylor', {'value':50000000000000000 }))
 dir(donation.donate('Taylor', {'value':50000000000000000 }).revert_msg)
 donation.donate('Taylor', {'value':50000000000000000 }).revert_msg
 donation = accounts[0].deploy(Donation)
+    donatur_name = b'Novak Djokovic'
+donatur_name = b'Novak Djokovic'
+donation.donate(donatur_name, {'from': accounts[1], 'value': 5000000000000000000})
+donatur = donation.donaturs(0)
+donatur
+donation_sum = donation.donatur_details(donatur)
+donation_sum
+dir(donation_sum)
+donation_sum.items(sum)
+donation_sum.items
+donation_sum.keys
+donation_sum.keys(sum)
+dir(donation_sum.keys)
+dir(donation_sum.items)
+dir(donation_sum.index)
+dir(donation_sum.dict)
+dir(donation_sum.count)
+donation_sum
+donation_sum.dict
+donation_sum.dict()
+donation_sum.dict().sum
+donation_sum.dict().sum()
+dir(donation_sum.dict())
+dir(donation_sum.items())
+dir(donation_sum.keys())
+dir(donation_sum.indexs())
+dir(donation_sum.
+dir(donation_sum.count())
+dir(donation_sum.keys())
+dir(donation_sum.dict())
+dir(donation_sum.dict().get())
+dir(donation_sum.dict().get(sum))
+dir(donation_sum.dict().items(sum))
+dir(donation_sum.dict().items())
+dir(donation_sum.dict())
+dir(donation_sum.dict().values)
+dir(donation_sum.dict().values())
+dir(donation_sum.dict().values(sum))
+dir(donation_sum.dict().values('sum'))
+dir(donation_sum)
+donation_sum
+donation_sum[1]
+donation_sum[name]
+donation_sum['name']
+donation.donatur_details(donatur)[1]
+donation.donatur_details(donatur)['sum']
