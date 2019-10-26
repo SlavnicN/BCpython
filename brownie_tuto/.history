@@ -1,0 +1,169 @@
+ewit 
+exit()
+Donation
+dir(Donation)
+Donation[0]
+Donation.get_method()
+Donation.at
+Donation.at()
+Donation.get_method
+donation = accounts[0].deploy(Donation)
+donation
+donation.transact()
+donation.transact({})
+donation.transact
+donation
+Donation
+donation.get_methode
+Donation.get_methode
+Donation.get_method
+Donation.signatures
+Donation.at()
+Donation.at(accounts[0])
+Donation.at(Donation)
+Donation.at(web3.eth.coinbase)
+donation
+Donation.at("0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87")
+donation
+donation.tx
+donation.balance()
+donation.donate.transact()
+exit()
+donation = account[0].deploy(Donation)
+donation = accounts[0].deploy(Donation)
+donation.donate.value(3)(b"taylor")
+accounts[0].donate.value(3)(b"Taylor")
+Donation.donate
+Donation.donate()
+donation.donate()
+donation.donate().value
+donation.donate('taylor').value
+donation.donate('taylor').value(3)
+donation.donate('taylor').value(1 wei)
+donation.donate('taylor').value(1)
+donation.donate('taylor').value("1')
+donation.donate('taylor').value("1")
+donation.donate('taylor').send("1")
+donation.donate('taylor').value()
+exit
+donation = accounts[0].deploy(Donation)
+donation.donate("taylor").send()
+donation.donate("taylor").value()
+donation.donate("taylor").value("1")
+clear
+donation.value(4).donate('tauor')
+donation.value(4)('taylor'
+)
+donation.donate()
+donation.donate
+donation.donate.value
+donation.donate.send
+donation.donate.send()
+donation.donate.transfere
+donation.donate.transfer
+donation.donate('Taylor')(1)
+donation.donate('Taylor')
+donation.donate.value(3)('taylor')
+donation.send()
+donation.value()
+donation.call()
+donation.call
+donation.donate
+donation.donate.get_method
+donation.donate.get_method(à
+donation.donate.get_method()
+donation.donate.get_method(
+)
+block
+donation.coinbase
+accounts[0].coinbase
+accounts[0]
+accounts[0].transfer
+accounts[0].transfer(1)
+accounts[0].transfer(0.1)
+accounts[0].transfer("1")
+accounts[0].transfer(1,1)
+accounts[0].send
+accounts[0].transfer
+this.address
+address
+donate
+Donation
+donation
+donation.donate
+donation.donate('taylor')
+dir(donation.donate('taylor')
+)
+dir(donation.donate('taylor').value)
+dir(donation.donate('taylor').value())
+dir(donation.donate('taylor').value)
+dir(donation.donate('taylor').value.real)
+dir(donation.donate('taylor').value)
+(donation.donate('taylor').value
+)
+donation.donate('taylor').info
+dir(accounts[0])
+dir(donation.donate)
+dir(donation.donate.transct)
+dir(donation.donate.transct())
+dir(donation.donate().transct())
+dir(donation.donate().transct)
+dir(donation.donate('taylor').transct)
+dir(donation.donate.transct()('taylor'))
+donation = accounts[0].deploy(Donation)
+donation.donate()
+donation.donate.transact()
+donation.donate.transact(1)
+donation.donate.transact({'value' : 1})
+donation.donate.transact({'value' : 1})()
+donation.donate.transact()({'value' : 1})
+donation.donate.transact({'from': 0, 'value' : 1})
+donation.donate.transact({'value' : 1})
+donation.donate({'value' : 1})
+donation.donate({'from': "0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87", 'value' : 1})
+donation.donate({'from': 0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87, 'value' : 1})
+donation.donate({'from': accounts[0], 'value' : 1})
+donation = accounts[0].deploy(Donation)
+donation.donate('Taylor',{'from': accounts[0], 'value': 100})
+donation.donate({'from': accounts[0], 'value': 100})
+donation.donate('Taylor', {'value': 100})
+donation = accounts[0].deploy(Donation)
+donation.donate('taylor', {'value': 1}) 
+donation.donate('taylor', {'value': 100}) 
+donation = accounts[0].deploy(Donation)
+donation.donate('Taylor',{value: 1})
+donation.donate('Taylor',{'value': 1})
+donation.donate('Taylor',{'value': 1000000000000000000000000000000})
+donation.donate('Taylor',{'value': 100000000000})
+accounts[0].balance()
+donation = accounts[0].deploy(Donation)
+donation.donate('Taylor', {'value': 1})
+donation.donate('Taylor', {'value': 1 ether})
+donation.donate('Taylor', {'value': 1})
+donation.donate('Taylor', {'value': 100000000000000})
+donation.donate('Taylor', {'value': 100000000000000000000000})
+donation.donate('Taylor', {'value': 100000000000000000000})
+donation.donate('Taylor', {'value': 10000000000000000})
+donation.donate('Taylor', {'value': 100000000000000000})
+donation.donate('Taylor', {'value': 1000000000000000000})
+donation.donate('Taylor', {'value': 100000000000000000})
+donation.donate('Taylor', {'value': 10000000000000000000})
+donation.donate('Taylor', {'value': 100000000000000000000})
+donation.donate('Taylor', {'value': 10000000000000000000})
+donation = accounts[0].deploy(Donation)
+donation.donate('Taylor', {'value': 1})
+donation.donate('Taylor', {'value': 500000000000000000})
+donation.donate('Taylor', {'value': 5000000000000000000})
+donation.donate('Taylor', {'value': 50000000000000000000})
+donation.donate('Taylor', {'value': 50000000000000000000000})
+donation.donate('Taylor', {'value': 500000000000000000000})
+donation.donate('Taylor', {'value': 5000000000000000000})
+donation.donate('Taylor', {'value': 50000000000000000000})
+donation.donate('Taylor', {'value': 500000000000000000})
+donation.donate('Taylor', {'value': 5000000000000000})
+donation = accounts[0].deploy(Donation)
+donation.donate('Taylor', {'value':50000000000000000 })
+dir(donation.donate('Taylor', {'value':50000000000000000 }))
+dir(donation.donate('Taylor', {'value':50000000000000000 }).revert_msg)
+donation.donate('Taylor', {'value':50000000000000000 }).revert_msg
+donation = accounts[0].deploy(Donation)

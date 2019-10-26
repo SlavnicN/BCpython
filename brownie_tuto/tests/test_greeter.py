@@ -1,19 +1,18 @@
 #!/usr/bin/python3
-
+from brownie import accounts
 import pytest
 
-def test_greeter(chain):
-    greeter, _ = chain.provider.get_or_deploy_contract('Greeter')
+def test_greeter(Greeter):
+    greeter = accounts[0].deploy(Greeter)
 
-    greeting = greeter.call().greet()
+    greeting = greeter.greet()
     assert greeting == 'Hello'
 
 
-def test_custom_greeting(chain):
-    greeter, _ = chain.provider.get_or_deploy_contract('Greeter')
+def test_custom_greeting(Greeter):
+    greeter = accounts[0].deploy(Greeter)
 
-    set_txn_hash = greeter.transact().setGreeting('Guten Tag')
-    chain.wait.for_receipt(set_txn_hash)
+    greeter.setGreeting('Guten Tag')
 
-    greeting = greeter.call().greet()
+    greeting = greeter.greet()
     assert greeting == 'Guten Tag'
