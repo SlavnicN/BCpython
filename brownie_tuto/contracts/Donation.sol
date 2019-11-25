@@ -31,7 +31,7 @@ contract Donation{
     }
 
     function withdraw_donation() public{
-        assert(msg.sender == donatee);
+        require(msg.sender == donatee);//dev: wrong guy, budy
         donatee.send(this.balance);
     }
 }
