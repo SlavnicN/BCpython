@@ -1,8 +1,24 @@
 Blockchain note: 
 
+- what I used here:
+    - Solidity
+    - Vyper
+    - truffle
+    - ganache
+    - brownie 
+    - pytest
+
 - What's the difference between web3.eth.coinbase and web3.eth.accounts[0]?
     web3.eth.accounts[0] = first address created on Eth node
     web3.eth.coinbase = account in which your mining 
     -> when juste 1 accounts this is the same 
     more on that : https://ethereum.stackexchange.com/questions/3081/what-is-coinbase?rq=1
-    
+- String[i], i is a uint256  
+
+-use console to debug much easier to see inside 
+
+
+Brownie console utile commande:
+    exemple : voting = accounts[0].deploy(SimpleVoting,[b'Djokovic',b'Nadal'])
+    -> to get the contract
+    dir(voting) -> To get all attribute and methode availble from the contract

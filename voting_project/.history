@@ -1,0 +1,50 @@
+quit()
+voting()
+voting
+voting.proposals_count()
+voting.proposals_count
+voting.proposals
+voting.proposals(0)
+voting.proposals(0)['name']
+voting.proposals(!)['name']
+voting.proposals(1)['name']
+voting.proposals(1)
+quit()
+voting = accounts[0].deploy(SimpleVoting)
+voting = accounts[0].deploy(SimpleVoting,[b'Djokovic',b'Nadal'])
+voting.help()
+help
+help(voting)
+voting
+[voting]
+voting.
+voting.list()
+help(voting)
+voting[]
+voting.[]
+dir(voting)
+voting.proposal
+dir(voting.proposals)
+voting.proposals
+voting.proposals__name
+dir(voting.proposals__name)
+voting.proposals__name[]
+voting.proposals__name[0]
+voting.proposals__name
+voting.proposals__name(0)
+voting.proposals__name(0).call()
+voting.proposals__name.call
+voting.proposals__name.call()
+voting.proposals__name(0).call()
+voting.proposals__name(0)
+brownie.convert.to_string()
+to_string()
+quit()
+voting = accounts[0].deploy(SimpleVoting,[b'Djokovic',b'Nadal'])
+Djokovic = voting.proposals__name(0)
+Djokovic
+startDjoko = 32 - len(b'Djokovic')
+startDjoko
+ Djokovic[startDjoko:] 
+Djokovic[startDjoko:] 
+quit()

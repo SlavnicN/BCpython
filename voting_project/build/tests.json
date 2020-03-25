@@ -1,0 +1,45 @@
+{
+  "contracts": {
+    "SimpleVoting": "7b5ee147c0794dd9b0e71e58b0042c374e918f90"
+  },
+  "tests": {
+    "tests/test_simple_voting_ap.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "....",
+      "sha1": "47576596795e6102f09ca9c8f0c1c85c4378330c",
+      "txhash": [
+        "2fe392d65663a8c919b4e9fe15f12c5f1b983b85",
+        "cfeea786e243dabd483799881e66fce4d28adba9"
+      ]
+    }
+  },
+  "tx": {
+    "2fe392d65663a8c919b4e9fe15f12c5f1b983b85": {
+      "SimpleVoting": {
+        "contracts/SimpleVoting.vy": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          []
+        ]
+      }
+    },
+    "cfeea786e243dabd483799881e66fce4d28adba9": {
+      "SimpleVoting": {
+        "contracts/SimpleVoting.vy": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          []
+        ]
+      }
+    }
+  }
+}

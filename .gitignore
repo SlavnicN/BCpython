@@ -1,1 +1,7 @@
 /vyper-env/*
+/Vbrownie/*
+/Vpopulus/*
+/Vvoting/*
+/web3-venv/*
+/vyper-venv/*
+node_modules
